@@ -16,7 +16,7 @@ function shuffle(array) {
 
 const ten_players = []
 
-let playersCount = 3;
+let playersCount = 10;
 
 while (ten_players.length < playersCount) {
     let random = Math.floor(Math.random() * 10); //5
