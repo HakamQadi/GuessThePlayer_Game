@@ -36,6 +36,7 @@ let current_player_num = ten_players[0].number
 let current_player_club = ten_players[0].club
 let current_player_natio = ten_players[0].nationality
 let current_player_position = ten_players[0].position
+// let current_player_career = ten_players[0].career
 let current_player_img = ten_players[0].img
 
 infoContainer.innerHTML =
@@ -91,14 +92,15 @@ btn.addEventListener("click", () => {
 // next button to generate more players
 let currentIndex = 1;
 next_btn.addEventListener("click", () => {
-    img.src = "./img/guess.png"
-
+    img.src = "../img/guess.png"
+    result.innerHTML = ``
     current_player_name = ten_players[currentIndex].name
     current_player_age = ten_players[currentIndex].age
     current_player_num = ten_players[currentIndex].number
     current_player_club = ten_players[currentIndex].club
     current_player_natio = ten_players[currentIndex].nationality
     current_player_position = ten_players[currentIndex].position
+    // current_player_career = ten_players[currentIndex].career
     current_player_img = ten_players[currentIndex].img
 
     infoContainer.innerHTML =

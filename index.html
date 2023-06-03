@@ -4,59 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Bootstrsp -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-      crossorigin="anonymous"
-    />
-    <!--  -->
-    <link rel="stylesheet" href="style.css" />
-    <title>Guess the player</title>
+    <title>Home</title>
   </head>
   <body>
-    <main class="main">
-      <div>
-        <h1>Guess who is the player</h1>
-        <h3 style="color: green;" id="score">Your score 0/10</h3>
-        <div class="card" style="width: 18rem">
-          <img
-            id="player_img"
-            src="./img/guess.png"
-            class="card-img-top"
-            alt="player image"
-          />
-          <!-- <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-          </div> -->
-          <ul class="list-group list-group-flush info_card">
-            <!-- <li class="list-group-item">Age:</li>
-            <li class="list-group-item">Club:</li>
-            <li class="list-group-item">Nationality:</li>
-            <li class="list-group-item">Position:</li> -->
-          </ul>
-          <div class="card-body d-flex flex-column gap-3">
-            <!-- <input type="text" name="player_name" id="player_name" /> -->
-            <select name="choose" id="choose_player">
-              <!-- <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option> -->
-              </select>
-              <button id="submit">GUESS</button>
-              <button id="next">Next</button>
-            <div id="result"></div>
-          </div>
-        </div>
-      </div>
-    </main>
+    <div
+      style="background-color: green; display: flex; justify-content: center"
+    >
+      <a
+        style="text-decoration: none; color: black"
+        href="./html/guess-player.html"
+        >Guess the player</a
+      >
+    </div>
+    <br /><br />
+    <div style="background-color: red; display: flex; justify-content: center">
+      <a
+        style="text-decoration: none; color: black"
+        href="./html/guess-manager.html"
+        >Guess the manager <span style="color: green">SOON!</span></a
+      >
+    </div>
   </body>
-  <!-- Bootstrap -->
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-    crossorigin="anonymous"
-  ></script>
-  <!--  -->
-  <script type="module" src="main.js"></script>
 </html>
