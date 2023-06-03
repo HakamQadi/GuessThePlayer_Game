@@ -19,7 +19,7 @@ const ten_players = []
 let playersCount = 10;
 
 while (ten_players.length < playersCount) {
-    let random = Math.floor(Math.random() * 10); //5
+    let random = Math.floor(Math.random() * 37);
     let player = players.Players[random];
     if (!ten_players.includes(player)) {
         ten_players.push(player);
