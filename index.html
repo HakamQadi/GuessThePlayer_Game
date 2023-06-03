@@ -17,12 +17,6 @@
   </head>
   <body>
     <main class="main">
-      <!-- 
-          <div class="container">
-              <p>Age:</p>
-            </div>
-        -->
-
       <div>
         <h1>Guess who is the player</h1>
         <div class="card" style="width: 18rem">
@@ -43,8 +37,13 @@
             <li class="list-group-item">Position:</li> -->
           </ul>
           <div class="card-body d-flex flex-column gap-3">
-            <input type="text" name="player_name" id="player_name" />
-            <button id="submit">GUESS</button>
+            <!-- <input type="text" name="player_name" id="player_name" /> -->
+            <select name="choose" id="choose_player">
+              <!-- <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option> -->
+              </select>
+              <button id="submit">GUESS</button>
             <div id="result"></div>
           </div>
         </div>
