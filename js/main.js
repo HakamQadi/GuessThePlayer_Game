@@ -36,13 +36,14 @@ let current_player_num = ten_players[0].number
 let current_player_club = ten_players[0].club
 let current_player_natio = ten_players[0].nationality
 let current_player_position = ten_players[0].position
-// let current_player_career = ten_players[0].career
+let current_player_career = ten_players[0].career
 let current_player_img = ten_players[0].img
 
 infoContainer.innerHTML =
     `
         <li class="list-group-item">Age: ${current_player_age}</li>
         <li class="list-group-item">Club: ${current_player_club}</li>
+        <li class="list-group-item">Career: ${current_player_career}</li>
         <li class="list-group-item">Number in club: ${current_player_num}</li>
         <li class="list-group-item">Nationality: ${current_player_natio}</li>
         <li class="list-group-item">Position: ${current_player_position}</li>
@@ -100,13 +101,14 @@ next_btn.addEventListener("click", () => {
     current_player_club = ten_players[currentIndex].club
     current_player_natio = ten_players[currentIndex].nationality
     current_player_position = ten_players[currentIndex].position
-    // current_player_career = ten_players[currentIndex].career
+    current_player_career = ten_players[currentIndex].career
     current_player_img = ten_players[currentIndex].img
 
     infoContainer.innerHTML =
         `
                 <li class="list-group-item">Age: ${current_player_age}</li>
                 <li class="list-group-item">Club: ${current_player_club}</li>
+                <li class="list-group-item">Career: ${current_player_career}</li>
                 <li class="list-group-item">Number in club: ${current_player_num}</li>
                 <li class="list-group-item">Nationality: ${current_player_natio}</li>
                 <li class="list-group-item">Position: ${current_player_position}</li>
