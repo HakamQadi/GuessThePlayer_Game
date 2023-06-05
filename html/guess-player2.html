@@ -11,16 +11,21 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    <!--  -->
+    <!--CSS-->
     <link rel="stylesheet" href="../css/style.css" />
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@100;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Guess the player</title>
   </head>
   <body id="player2.0">
     <main class="main">
       <div>
-        <h1>Guess who is the player</h1>
-        <h3 style="color: green;" id="score">Your score 0/10</h3>
-        <div class="card" style="width: 18rem">
+        <h1 id="heading">Guess who is the player</h1>
+        <h3 id="score">Your score 0/10</h3>
+        <div id="card_body" class="card" style="width: 18rem">
           <img
             id="player_img"
             src="../img/guess.png"
@@ -36,15 +41,17 @@
             <li class="list-group-item">Nationality:</li>
             <li class="list-group-item">Position:</li> -->
           </ul>
-          <div class="card-body d-flex flex-column gap-3">
+          <div class="card_bottom card-body d-flex flex-column gap-3 align-items-center">
             <!-- <input type="text" name="player_name" id="player_name" /> -->
             <select name="choose" id="choose_player">
               <!-- <option value="">1</option>
                 <option value="">2</option>
                 <option value="">3</option> -->
-              </select>
-              <button id="submit">GUESS</button>
-              <button id="next">Next</button>
+            </select>
+            <div>
+              <button class="btn" id="submit">GUESS</button>
+              <button class="btn" id="next">Next</button>
+            </div>
             <div id="result"></div>
           </div>
         </div>
