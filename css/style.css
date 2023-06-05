@@ -30,7 +30,7 @@
 
     background-size: cover;
 
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .main div {
