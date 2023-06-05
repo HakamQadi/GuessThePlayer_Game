@@ -336,7 +336,6 @@
 // ]
 
 
-
 export const Players = [
     {
         name: "Messi",
@@ -346,7 +345,7 @@ export const Players = [
         number: "30",
         position: "RW",
         career:"Barcelona => Paris Saint-Germain",
-        img: "../img/messi.jpg"
+        img: "../img/players/messi.jpg"
     },
     {
         name: "Neymar",
@@ -356,7 +355,7 @@ export const Players = [
         number: "10",
         position: "LW",
         career:"santos => Barcelona => Paris saint-Germain",
-        img: "../img/neymar.jpeg"
+        img: "../img/players/neymar.jpeg"
     },
     {
         name: "Ronaldo",
@@ -366,7 +365,7 @@ export const Players = [
         number: "7",
         position: "ST",
         career:"Sporting lisbon => Man united => Real madrid => Juventus => Man united",
-        img: "../img/ronaldo.jpg"
+        img: "../img/players/ronaldo.jpg"
     },
     {
         name: "Benzema",
@@ -376,7 +375,7 @@ export const Players = [
         number: "9",
         position: "ST",
         career:"Olympique Lyonnais => Real Madrid",
-        img: "../img/karim.jpg"
+        img: "../img/players/karim.jpg"
     },
     {
         name: "Robert Lewandowski",
@@ -386,7 +385,7 @@ export const Players = [
         number: "9",
         position: "ST",
         career:"Borussia Dortmund => Bayern Munich",
-        img: "../img/Lewandowski.jpg"
+        img: "../img/players/Lewandowski.jpg"
     },
     {
         name: "Modric",
@@ -396,7 +395,7 @@ export const Players = [
         number: "10",
         position: "CM",
         career:"Dinamo Zagreb => Tottenham => Real Madrid",
-        img: "../img/Modric.jpg"
+        img: "../img/players/Modric.jpg"
     },
     {
         name: "Mbappe",
@@ -406,7 +405,7 @@ export const Players = [
         number: "7",
         position: "ST",
         career:"Monaco => Paris Saint-Germain",
-        img: "../img/Kylian Mbappe.jpeg"
+        img: "../img/players/Kylian Mbappe.jpeg"
     },
     {
         name: "Haaland",
@@ -416,7 +415,7 @@ export const Players = [
         number: "9",
         position: "ST",
         career:"Red Bull Salzburg => Borussia Dortmund",
-        img: "../img/Erling Haaland.jpg"
+        img: "../img/players/Erling Haaland.jpg"
     },
     {
         name: "Salah",
@@ -426,7 +425,7 @@ export const Players = [
         number: "11",
         position: "RW",
         career:"Basel => Chelsea => Fiorentina => Roma => Liverpool",
-        img: "../img/Mohamed Salah.jpg"
+        img: "../img/players/Mohamed Salah.jpg"
     },
     {
         name: "De Bruyne",
@@ -436,7 +435,7 @@ export const Players = [
         number: "17",
         position: "CM",
         career:"Chelsea => Wolfsburg => Man City",
-        img: "../img/Kevin De Bruyne.jpg"
+        img: "../img/players/Kevin De Bruyne.jpg"
     },
     {
         name: "Griezmann",
@@ -446,7 +445,7 @@ export const Players = [
         number: "7",
         position: "ST",
         career:"Real Sociedad => Atletico Madrid => Barcelona",
-        img: "../img/Antoine Griezmann.jpg"
+        img: "../img/players/Antoine Griezmann.jpg"
     },
     {
         name: "Donnarumma",
@@ -456,7 +455,7 @@ export const Players = [
         number: "50",
         position: "GK",
         career:"AC Milan => Paris Saint-Germain",
-        img: "../img/Gianluigi Donnarumma.jpg"
+        img: "../img/players/Gianluigi Donnarumma.jpg"
     },
     {
         name: "Harry Kane",
@@ -466,7 +465,7 @@ export const Players = [
         number: "10",
         position: "ST",
         career:"Tottenham Hotspur",
-        img: "../img/Harry Kane.jpeg"
+        img: "../img/players/Harry Kane.jpeg"
     },
     {
         name: "Kante",
@@ -476,7 +475,7 @@ export const Players = [
         number: "7",
         position: "CDM",
         career:"Boulogne => Caen => Leicester City => Chelsea",
-        img: "../img/Kante.jpg"
+        img: "../img/players/Kante.jpg"
     },
     {
         name: "Ramos",
@@ -486,7 +485,7 @@ export const Players = [
         number: "4",
         position: "CB",
         career:"Sevilla => Real Madrid => Paris Saint-Germain",
-        img: "../img/Ramos.jpeg"
+        img: "../img/players/Ramos.jpeg"
     },
     {
         name: "Pogba",
@@ -496,7 +495,7 @@ export const Players = [
         number: "6",
         position: "CM",
         career:"Man United => Juventus => Man United",
-        img: "../img/Pogba.jpg"
+        img: "../img/players/Pogba.jpg"
     },
     {
         name: "Hazard",
@@ -506,7 +505,7 @@ export const Players = [
         number: "7",
         position: "LW",
         career:"Lille => Chelsea => Real Madrid",
-        img: "../img/Hazard.jpg"
+        img: "../img/players/Hazard.jpg"
     },
     {
         name: "Dybala",
@@ -516,7 +515,7 @@ export const Players = [
         number: "10",
         position: "ST",
         career:"Instituto => Palermo => Juventus",
-        img: "../img/Dybala.jpeg"
+        img: "../img/players/Dybala.jpeg"
     },
     {
         name: "Toni Kroos",
@@ -526,7 +525,7 @@ export const Players = [
         number: "8",
         position: "CM",
         career:"Bayern Munchen => Bayer Leverkusen => Real Madrid",
-        img: "../img/Toni Kroos.jpeg"
+        img: "../img/players/Toni Kroos.jpeg"
     },
     {
         name: "Sadio Mane",
@@ -536,7 +535,7 @@ export const Players = [
         number: "10",
         position: "LW",
         career:"Metz => Red Bull Salzburg => Southampton => Liverpool",
-        img: "../img/Sadio Mane.jpeg"
+        img: "../img/players/Sadio Mane.jpeg"
     },
     {
         name: "Kimmich",
@@ -546,7 +545,7 @@ export const Players = [
         number: "6",
         position: "CDM",
         career:"RB Leipzig => Bayern Munich",
-        img: "../img/Kimmich.jpg"
+        img: "../img/players/Kimmich.jpg"
     },
     {
         name: "Lukaku",
@@ -556,7 +555,7 @@ export const Players = [
         number: "9",
         position: "ST",
         career:"Anderlecht => Chelsea => West Bromwich => Everton => Man United => Inter Milan => Chelsea",
-        img: "../img/Lukaku.jpeg"
+        img: "../img/players/Lukaku.jpeg"
     },
     {
         name: "Verratti",
@@ -566,7 +565,7 @@ export const Players = [
         number: "6",
         position: "CM",
         career:"Pescara => Paris Saint-Germain",
-        img: "../img/Verratti.jpg"
+        img: "../img/players/Verratti.jpg"
     },
     {
         name: "van Dijk",
@@ -576,7 +575,7 @@ export const Players = [
         number: "4",
         position: "CB",
         career:"Groningen => Celtic => Southampton => Liverpool",
-        img: "../img/van Dijk.jpg"
+        img: "../img/players/van Dijk.jpg"
     },
     {
         name: "Oblak",
@@ -586,7 +585,7 @@ export const Players = [
         number: "13",
         position: "GK",
         career:"Olimpija Ljubljana => Benfica => Beira-Mar => Olhanense => União de Leiria => Rio Ave => Benfica‏ => Atletico Madrid", 
-        img: "../img/Oblak.jpg"
+        img: "../img/players/Oblak.jpg"
     },
     {
         name: "Son",
@@ -596,7 +595,7 @@ export const Players = [
         number: "7",
         position: "LW",
         career:"Hamburger => Bayer Leverkusen => Tottenham",
-        img: "../img/Son.jpg"
+        img: "../img/players/Son.jpg"
     },
     {
         name: "Lorenzo Insigne",
@@ -606,7 +605,7 @@ export const Players = [
         number: "24",
         position: "LW",
         career:"Napoli => Cavese => Foggia => Pescara => Napoli",
-        img: "../img/Lorenzo Insigne.jpg"
+        img: "../img/players/Lorenzo Insigne.jpg"
     },
     {
         name: "Timo Werner",
@@ -616,7 +615,7 @@ export const Players = [
         number: "11",
         position: "ST",
         career:"Stuttgart => RB Leipzig => Chelsea",
-        img: "../img/Timo Werner.jpg"
+        img: "../img/players/Timo Werner.jpg"
     },
     {
         name: "Icardi",
@@ -626,7 +625,7 @@ export const Players = [
         number: "9",
         position: "ST",
         career:"Sampdoria => Inter Milan => Paris Saint-Germain",
-        img: "../img/Icardi.jpeg"
+        img: "../img/players/Icardi.jpeg"
     },
     {
         name: "Goretzka",
@@ -636,7 +635,7 @@ export const Players = [
         number: "18",
         position: "CM",
         career:"Bochum => Schalke => Bayern Munich",
-        img: "../img/Goretzka.jpg"
+        img: "../img/players/Goretzka.jpg"
     },
     {
         name: "Mahrez",
@@ -646,7 +645,7 @@ export const Players = [
         number: "26",
         position: "RW",
         career:"Quimper Cornouaille => Le Havre => Leicester City => Man City",
-        img: "../img/Mahrez.jpg"
+        img: "../img/players/Mahrez.jpg"
     },
     {
         name: "Barella",
@@ -656,7 +655,7 @@ export const Players = [
         number: "23",
         position: "CM",
         career:"Cagliari => Como => Inter Milan",
-        img: "../img/Barella.jpeg"
+        img: "../img/players/Barella.jpeg"
     },
     {
         name: "Cancelo",
@@ -666,7 +665,7 @@ export const Players = [
         number: "27",
         position: "RB",
         career:"Benfica => Valencia => Inter Milan => Juventus => Man City",
-        img: "../img/Cancelo.jpg"
+        img: "../img/players/Cancelo.jpg"
     },
     {
         name: "ter Stegen",
@@ -676,7 +675,7 @@ export const Players = [
         number: "1",
         position: "GK",
         career:"Borussia Monchengladbach => Barcelona",
-        img: "../img/ter Stegen.jpg"
+        img: "../img/players/ter Stegen.jpg"
     },
     {
         name: "David Alaba",
@@ -686,7 +685,7 @@ export const Players = [
         number: "4",
         position: "CB",
         career:"Austria Wien => Bayern Munich => Hoffenheim => Bayern Munich => Real Madrid",
-        img: "../img/David Alaba.jpeg"
+        img: "../img/players/David Alaba.jpeg"
     },
     {
         name: "Thomas Partey",
@@ -696,7 +695,7 @@ export const Players = [
         number: "18",
         position: "CM",
         career:"Atletico Madrid B => Real Maiiorca => Almería => Atletico Madrid => Arsenal",
-        img: "../img/partey.jpeg"
+        img: "../img/players/partey.jpeg"
     },
     {
         name: "Dusan Tadic",
@@ -706,6 +705,6 @@ export const Players = [
         number: "10",
         position: "FW",
         career:"Vojvodina => Groningen => Twente =>  Southampton => Ajax",
-        img: "../img/Dusan Tadic.jpg"
+        img: "../img/players/Dusan Tadic.jpg"
     }
 ]
