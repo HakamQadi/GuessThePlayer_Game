@@ -261,7 +261,7 @@ if (page == "manager") {
 
     const random_managers = []
 
-    let managersCount = 10;
+    let managersCount = 5;
 
     while (random_managers.length < managersCount) {
         let random = Math.floor(Math.random() * 12);
@@ -318,13 +318,13 @@ if (page == "manager") {
             result.innerHTML = `<p>Wrong! ((${current_manager_name}))</p>`
             img.src = current_manager_img
         }
-        my_score.innerText = `Your score ${score}/10`
+        my_score.innerText = `Your score ${score}/5`
         if (currentIndex == managersCount) {
             console.log("finish");
             next_btn.style.display = "none";
             btn.textContent = "Play again!"
             btn.addEventListener("click", () => {
-                my_score.innerText = `Your score 0/10`
+                my_score.innerText = `Your score 0/5`
                 window.location.reload()
             })
         }
